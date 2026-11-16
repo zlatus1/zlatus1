@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">ZLATUS1 — код, практика, результат</title>
+  <desc id="desc">Тёмный баннер с розовой типографикой, орбитами и декоративным символом звезды.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#17131d"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+    <linearGradient id="pink" x2="1" y2="1"><stop stop-color="#ffd6e3"/><stop offset="1" stop-color="#e99abb"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#c65b91" stop-opacity=".2"/><stop offset="1" stop-color="#c65b91" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="380" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="378" rx="23" fill="none" stroke="#44303e"/>
+  <circle cx="963" cy="190" r="255" fill="url(#glow)"/>
+  <g fill="none" stroke="#553647" stroke-width="1">
+    <ellipse cx="973" cy="192" rx="183" ry="85" transform="rotate(-34 973 192)"/>
+    <ellipse cx="973" cy="192" rx="183" ry="85" transform="rotate(34 973 192)"/>
+    <circle cx="973" cy="192" r="130"/>
+    <path d="M760 192h420M973 22v340" stroke-dasharray="3 9"/>
+  </g>
+  <path d="M973 96c8 65 28 86 94 96-66 9-86 30-94 96-9-66-29-87-95-96 66-10 86-31 95-96Z" fill="url(#pink)"/>
+  <circle cx="1090" cy="112" r="5" fill="#e9a8c2"/>
+  <circle cx="854" cy="272" r="4" fill="#e9a8c2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="52" y="46" width="144" height="28" rx="14" fill="#2a1d29" stroke="#614052"/>
+    <circle cx="69" cy="60" r="3" fill="#f0adca"/>
+    <text x="81" y="64" fill="#e6b9cc" font-size="10" letter-spacing="2">ЛИЧНЫЙ GITHUB</text>
+    <text x="47" y="202" fill="url(#pink)" font-size="112" font-weight="700" letter-spacing="-5">ZLATUS1</text>
+    <text x="55" y="248" fill="#e4dce4" font-size="24" letter-spacing="1">Код. Практика. Результат.</text>
+    <path d="M55 289h650" stroke="#44303e"/>
+    <text x="55" y="323" fill="#a79aa9" font-size="13" letter-spacing="2">PYTHON / FLASK / SQLITE / BASH</text>
+    <text x="1138" y="345" text-anchor="end" fill="#8e7184" font-size="11" letter-spacing="2">Z / 01</text>
+  </g>
+</svg>
